@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="409dp"
+        android:layout_height="166dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="37dp">
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="111dp"
+            android:layout_height="55dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Asignatura" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:spinnerMode="dropdown" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="416dp"
+        android:layout_height="158dp"
+        android:stretchColumns="1"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:layout_editor_absoluteX="-2dp">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="5dip"
+                android:text="Nombre Estudiante"
+                android:textColor="#070707" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:gravity="left"
+                android:padding="1dip"
+                android:text="Nota 1"
+                android:textColor="#070707" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:gravity="left"
+                android:padding="1dip"
+                android:text="Nota 2"
+                android:textColor="#070707" />
+
+            <TextView
+                android:layout_width="63dp"
+                android:gravity="left"
+                android:padding="1dip"
+                android:text="Nota 3"
+                android:textColor="#070707" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:gravity="left"
+                android:padding="1dip"
+                android:text="Nota Final"
+                android:textColor="#070707" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dip"
+                android:text="Juan Perez" />
+
+            <TextView
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="3" />
+
+            <TextView
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="3" />
+
+            <TextView
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="4" />
+
+            <TextView
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="3.5" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dip"
+                android:text="Pepito Ramirez" />
+
+            <TextView
+                android:layout_width="77dp"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="3" />
+
+            <TextView
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="3" />
+
+            <TextView
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="3" />
+
+            <TextView
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="3" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:padding="3dip"
+                android:text="Saraha Vasquez" />
+
+            <TextView
+                android:layout_width="77dp"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="3" />
+
+            <TextView
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="3" />
+
+            <TextView
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="3" />
+
+            <TextView
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="3" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:padding="3dip"
+                android:text="Christian Real" />
+
+            <TextView
+                android:layout_width="77dp"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="3" />
+
+            <TextView
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="3" />
+
+            <TextView
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="3" />
+
+            <TextView
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="3" />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
